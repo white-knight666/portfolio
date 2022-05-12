@@ -17,7 +17,7 @@ function App() {
       
       <div>
       <ParticleBackground />
-      <Routes>
+      <Routes basename="/portfolio">
       
         <Route exact path="/" element={<Home/>}/>
         <Route exact path="/Skills" element={<Skills/>}/>
